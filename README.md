@@ -51,7 +51,7 @@ npm run build
 
 
 # 漫画文字起こし
-今回は[[magi:https://github.com/ragavsachdeva/magi]](The Manga Whisperer: Automatically Generating Transcriptions for Comics (CVPR'24))を用いる。
+今回は[magi](https://github.com/ragavsachdeva/magi)(The Manga Whisperer: Automatically Generating Transcriptions for Comics (CVPR'24))を用いる。
 学習済みAIモデルに漫画1ページずつ渡して文字おこしする。
 
 # 読み上げ
