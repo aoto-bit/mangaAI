@@ -1,0 +1,35 @@
+.book-container {
+    display: flex;
+    margin-bottom: 20px; /* 下の本との間隔 */
+  }
+
+  .book-cover {
+    flex: 0 0 150px; /* 本のカバーの幅を固定 */
+    margin-right: 20px; /* 右のテキストとの間隔 */
+  }
+
+  .book-cover img {
+    width: 100%; /* 画像をカバーの幅に合わせる */
+    height: auto;
+  }
+
+  .book-info {
+    display: flex;
+    /* grid-template-columns: auto auto; */
+    gap: 20px;
+  }
+
+  .book-title {
+    font-size: 24px; /* タイトルのフォントサイズ */
+    /* margin: ; 下のテキストとの間隔 */
+  }
+
+  .book-author .book-publisher {
+    font-size: 18px; /* 著者名のフォントサイズ */
+    color: #555; /* 著者名の色 */
+    padding-top: 20px;
+  }
+
+  .book-description {
+    font-size: 14px; /* 説明文のフォントサイズ */
+  }
